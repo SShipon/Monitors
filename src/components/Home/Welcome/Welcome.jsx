@@ -1,7 +1,7 @@
 import React from 'react';
 import './Welcome.css';
-import settings from '../../../assets/Home/settings 1.png';
-import notification from '../../../assets/Home/002-notification-1.png';
+import card1 from '../../../assets/Home/Card-1.png.png';
+import card2 from '../../../assets/Home/Card-2.png.png';
 
 export default function WebMonitors() {
   return (
@@ -13,11 +13,11 @@ export default function WebMonitors() {
             <i className="fa-solid fa-arrow-right"></i>
           </div>
           <div>
-            <img src={settings} alt="" />
+            <img src={card1} alt="" />
           </div>
         </div>
         <div className="lorem-box-right">
-          <img src={notification} alt="" />
+          <img src={card2} alt="" />
         </div>
       </div>
     </div>
