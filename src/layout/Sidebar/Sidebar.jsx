@@ -18,6 +18,34 @@ const Sidebar = () => {
     }
   }, [isSidebarOpen]);
 
+  const firstItems =(
+    <ul className="nav-list">
+    {
+      navigationLinks.map((navigationLink) => (
+        <li className="nav-item" key = { navigationLink.id }>
+          <div className={ `nav-link ${ navigationLink.id === activeLinkIdx ? 'active' : null }` }>
+              <img src={ navigationLink.image } className="nav-link-icon" alt = { navigationLink.title } />
+              <span className="nav-link-text">{ navigationLink.title }</span>
+          </div>
+        </li>
+      ))[0]
+    }
+  </ul>
+  )
+  const firstItems2 =(
+    <ul className="nav-list">
+    {
+      navigationLinks.map((navigationLink) => (
+        <li className="nav-item" key = { navigationLink.id }>
+          <div className={ `nav-link ${ navigationLink.id === activeLinkIdx ? 'active' : null }` }>
+              <img src={ navigationLink.image } className="nav-link-icon" alt = { navigationLink.title } />
+              <span className="nav-link-text">{ navigationLink.title }</span>
+          </div>
+        </li>
+      )).slice(1)
+    }
+  </ul>
+  )
   return (
     <div className={ `sidebar ${sidebarClass}` }>
       <div className="user-info">
@@ -28,18 +56,12 @@ const Sidebar = () => {
 
       <nav className="navigation">
       <span className='mr-2'>UPTIME</span>
-          <ul className="nav-list">
-            {
-              navigationLinks.map((navigationLink) => (
-                <li className="nav-item" key = { navigationLink.id }>
-                  <a href={navigationLink.title} className={ `nav-link ${ navigationLink.id === activeLinkIdx ? 'active' : null }` }>
-                      <img src={ navigationLink.image } className="nav-link-icon" alt = { navigationLink.title } />
-                      <span className="nav-link-text">{ navigationLink.title }</span>
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
+         {
+          firstItems
+         }
+         {
+          firstItems2
+         }
       </nav>
     </div>
   )
