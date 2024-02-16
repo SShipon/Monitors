@@ -43,6 +43,11 @@
 .nav-settings{
     color: rgb(104, 201, 204);
 }
+.nav-settings img ,.nav-notification img{
+   display: block;
+   margin: auto;
+   padding-top: 10px;
+}
 .nav-notification{
 color: rgb(236, 20, 56);
 }
