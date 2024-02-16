@@ -9,7 +9,7 @@ const Content = () => {
   return (
     <div className='main-content'>
       <ContentTop />
-     <WebMonitors />
+     {/* <WebMonitors /> */}
    {/* nitu start */}
 <Welcome></Welcome>
 

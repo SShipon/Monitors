@@ -20,7 +20,7 @@ const ContentTop = () => {
       </div>
 
       <div className="content-top-btns">
-        <div className="navbar-end flex ">
+        <div className="flex gap-3 ">
           <div className="nav-settings">
             <img src={settings} alt="" />
           </div>
