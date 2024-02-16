@@ -20,7 +20,7 @@ const ContentTop = () => {
         </button>
       </div>
       <div className="content-top-btns">
-        <div className=" flex">
+        <div className=" flex gap-3">
           <div className="nav-settings">
             <img src={settings} alt="" />
             {/* <i class="fa-solid fa-gear"></i> */}
