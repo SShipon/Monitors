@@ -10,7 +10,7 @@ const Welcome = () => {
         <div className="welcome-box-left">
           <div>
             <h1>Welcome to X</h1>
-            <i class="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </div>
           <div>
             <img src={settings} alt="" />
