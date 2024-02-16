@@ -51,3 +51,7 @@
 .nav-notification{
 color: rgb(236, 20, 56);
 }
+.nav-userImage img{
+  border-radius: 50%;
+  font-size: 30px;
+}
