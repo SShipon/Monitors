@@ -1,10 +1,9 @@
-import { SidebarContext } from "../../context/sidebarContext";
-import { iconsImgs } from "../../utils/images";
-import { personsImgs } from "../../utils/images";
-import "./ContentTop.css";
-import { useContext } from "react";
+import { SidebarContext } from '../../context/sidebarContext';
+import { iconsImgs } from '../../utils/images';
+import './ContentTop.css';
+import { useContext } from 'react';
 import notification from '../../assets/Home/002-notification-1.png';
-import settings from '../../assets/Home/settings 1.png';
+import settings from '../../assets/Home//settings 1.png';
 
 const ContentTop = () => {
   const { toggleSidebar } = useContext(SidebarContext);
@@ -19,16 +18,10 @@ const ContentTop = () => {
           <img src={iconsImgs.menu} alt="" />
         </button>
       </div>
+
       <div className="content-top-btns">
         <div className="navbar-end flex gap-5">
-          <div className="nav-settings">
-            <img src={settings} alt="" />
-            {/* <i class="fa-solid fa-gear"></i> */}
-          </div>
-          <div className="nav-notification">
-            <img src={notification} alt="" />
-            {/* <i class="fa-regular fa-bell"></i> */}
-          </div>
+        
           <div className="nav-userImage">
             <div
               tabIndex={0}
@@ -47,6 +40,6 @@ const ContentTop = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContentTop
+export default ContentTop;

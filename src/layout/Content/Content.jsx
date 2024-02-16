@@ -11,7 +11,7 @@ const Content = () => {
       <ContentTop />
      <WebMonitors />
    {/* nitu start */}
-
+<Welcome></Welcome>
 
 {/* shipon */}
     
