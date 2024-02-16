@@ -44,8 +44,10 @@ const ContentTop = () => {
             </div>
           </div>
         </div>
+          </div>
+      
       </div>
-    </div>
+      
   );
 }
 
