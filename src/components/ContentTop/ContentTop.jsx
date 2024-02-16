@@ -1,11 +1,9 @@
 import { SidebarContext } from "../../context/sidebarContext";
 import { iconsImgs } from "../../utils/images";
-import { personsImgs } from "../../utils/images";
 import "./ContentTop.css";
 import { useContext } from "react";
-import notification from '../../assets/Home/002-notification-1.png';
-import settings from '../../assets/Home/settings 1.png';
-
+import notification from '../../assets/Home/002-notification-1.png'
+import setting from '../../assets/Home/settings 1.png'
 const ContentTop = () => {
   const { toggleSidebar } = useContext(SidebarContext);
   return (
@@ -22,7 +20,7 @@ const ContentTop = () => {
       <div className="content-top-btns">
         <div className="navbar-end flex gap-5">
           <div className="nav-settings">
-            <img src={settings} alt="" />
+            <img src={setting} alt="" />
             {/* <i class="fa-solid fa-gear"></i> */}
           </div>
           <div className="nav-notification">
