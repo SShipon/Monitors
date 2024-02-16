@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
+  border-bottom: 1px solid rgb(214, 229, 230);
 }
 .sidebar-toggler {
   display: flex;
@@ -30,3 +31,27 @@
   align-items: center;
 }
 
+.nav-settings,.nav-notification{
+    background-color: rgb(234, 243, 245);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    font-size: 25px;
+}
+.nav-settings{
+    color: rgb(104, 201, 204);
+}
+.nav-settings img ,.nav-notification img{
+   display: block;
+   margin: auto;
+   padding-top: 10px;
+}
+.nav-notification{
+color: rgb(236, 20, 56);
+}
+.nav-userImage img{
+  border-radius: 50%;
+  font-size: 30px;
+}

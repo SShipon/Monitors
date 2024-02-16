@@ -20,8 +20,13 @@ const ContentTop = () => {
       </div>
 
       <div className="content-top-btns">
-        <div className="navbar-end flex gap-5">
-        
+        <div className="navbar-end flex ">
+          <div className="nav-settings">
+            <img src={settings} alt="" />
+          </div>
+          <div className="nav-notification">
+            <img src={notification} alt="" />
+          </div>
           <div className="nav-userImage">
             <div
               tabIndex={0}
