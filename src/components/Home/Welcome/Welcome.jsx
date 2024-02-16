@@ -3,7 +3,7 @@ import './Welcome.css';
 import settings from '../../../assets/Home/settings 1.png';
 import notification from '../../../assets/Home/002-notification-1.png';
 
-const Welcome = () => {
+export default function WebMonitors() {
   return (
     <div>
       <div className="welcome-container">
@@ -24,4 +24,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+
