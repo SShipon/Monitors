@@ -46,7 +46,7 @@ const Global = () => {
             <div className="box1-flex">
               <p>Load Average</p>
               <h5>
-                1200 ms <i class="fa-solid fa-arrow-down"></i>
+                1200ms <i class="fa-solid fa-arrow-down"></i>
               </h5>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Global = () => {
             <div className="box1-flex">
               <p>Load Average</p>
               <h5>
-                1200 ms <i class="fa-solid fa-arrow-down"></i>
+                1200ms <i class="fa-solid fa-arrow-down"></i>
               </h5>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Global = () => {
             <div className="box1-flex">
               <p>Load Average</p>
               <h6>
-                250 ms <i class="fa-solid fa-arrow-up"></i>
+                250ms <i class="fa-solid fa-arrow-up"></i>
               </h6>
             </div>
           </div>
@@ -109,7 +109,7 @@ const Global = () => {
             <div className="box1-flex">
               <p>Load Average</p>
               <h5>
-                1200 ms <i class="fa-solid fa-arrow-down"></i>
+                1200ms <i class="fa-solid fa-arrow-down"></i>
               </h5>
             </div>
           </div>
