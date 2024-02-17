@@ -12,7 +12,7 @@ const Global = () => {
             <h1>Global Uptime</h1>
             <p>last 3 months</p>
           </div>
-          <div className="global-flex">
+          <div className="global-flex global-flex-2">
             <h2>98.74 %</h2>
             <img src={filter} alt="" />
           </div>
