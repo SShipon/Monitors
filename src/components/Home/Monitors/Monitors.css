@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 50px 0px;
+}
+
+.monitor-left{
+ box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  gap: 20px;
 }
 
 .monitor-left h1 {
@@ -9,28 +16,26 @@
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 40px;
   color: #15192c;
 }
 /* ------------------------part 1---------------------- */
 .monitor-loading-component {
   display: flex;
-  justify-content: space-between;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
-  padding: 17px;
-  border-radius: 10px;
-  gap: 20px;
+  justify-content: space-around;
+  height: 300px;
+  width: 449px;
 }
 
 .monitor-loading {
   position: relative;
+  top: -160px;
 }
 .monitor-loading h3 {
   position: absolute;
-  top: 64%;
+  top: 84%;
   right: 40%;
   font-size: 48px;
   font-weight: 700;
