@@ -1,5 +1,8 @@
 .global-container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
 }
 
 .global-left {
@@ -46,4 +49,24 @@
   display: flex;
   justify-content: space-between;
   gap: 5px;
+}
+/* --------------second part css----------------- */
+
+.global-right{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.global-right-box{
+    width: Fixed (186.21px);
+height: Fixed (110.83px);
+padding: 10.31px;
+border-radius: 9.02px;
+gap: 6.44px;
+
+}
+.box1-flex,.box1-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
