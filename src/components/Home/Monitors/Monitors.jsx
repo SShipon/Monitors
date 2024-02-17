@@ -26,15 +26,9 @@ const Monitors = () => {
                 </div>
               </div>
               <div className="monitor-loading">
-                <div class="circle">
-                  <img  src={ellipse3} alt="" />
-                  <img  src={ellipse4} alt="" />
-                  <img  src={ellipse5} alt="" />
-                </div>
-
-                {/* <img className="ellipse3" src={ellipse3} alt="" />
+                <img className="ellipse3" src={ellipse3} alt="" />
                 <img className="ellipse4" src={ellipse4} alt="" />
-                <img className="ellipse5" src={ellipse5} alt="" /> */}
+                <img className="ellipse5" src={ellipse5} alt="" />
                 <h3>190</h3>
               </div>
             </div>
