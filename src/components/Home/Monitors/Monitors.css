@@ -90,6 +90,16 @@
   justify-content: space-between;
     margin-bottom: 20px;
 }
+.Latencies-box1 h1{
+  font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.44px;
+text-align: left;
+color: #252F40;
+
+}
 .Latencies-box2{
   display: flex;
   gap: 20px;
@@ -103,6 +113,9 @@
 .Latencies-calender-div{
   display: flex;
   gap: 10px;
+}
+.Latencies-calender-div img{
+margin-top: 5px;
 }
 .Latencies-calender ul{
   display: flex;
