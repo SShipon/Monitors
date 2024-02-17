@@ -1,8 +1,8 @@
 import React from 'react';
 import './Monitors.css';
-import ellipse3 from '../../../assets/Home/Ellipse 3.png';
-import ellipse4 from '../../../assets/Home/Ellipse 4.png';
-import ellipse5 from '../../../assets/Home/Ellipse 5.png';
+import ellipse3 from '../../../assets/Home/Ellipse3.png';
+import ellipse4 from '../../../assets/Home/Ellipse4.png';
+import ellipse5 from '../../../assets/Home/Ellipse5.png';
 const Monitors = () => {
     return (
       <div>
@@ -26,9 +26,15 @@ const Monitors = () => {
                 </div>
               </div>
               <div className="monitor-loading">
-                <img className="ellipse3" src={ellipse3} alt="" />
+                <div class="circle">
+                  <img  src={ellipse3} alt="" />
+                  <img  src={ellipse4} alt="" />
+                  <img  src={ellipse5} alt="" />
+                </div>
+
+                {/* <img className="ellipse3" src={ellipse3} alt="" />
                 <img className="ellipse4" src={ellipse4} alt="" />
-                <img className="ellipse5" src={ellipse5} alt="" />
+                <img className="ellipse5" src={ellipse5} alt="" /> */}
                 <h3>190</h3>
               </div>
             </div>

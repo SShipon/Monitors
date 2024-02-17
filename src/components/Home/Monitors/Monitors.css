@@ -1,3 +1,21 @@
+.monitors-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monitor-left h1{
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 30px;
+margin-left: 15px;
+color: #15192C;
+}
+ /* ------------------------part 1---------------------- */
 .monitor-loading-component {
   display: flex;
   justify-content: space-between;
@@ -18,12 +36,12 @@
 
 .ellipse3{
     position: absolute;
-top: 91.78px;
-left: 151.91px;
+top: 33.78px;
+right: 191.91px;
 }
 /* .ellipse4{
     position: absolute;
-top: 85px;
+top: 65px;
 left: 145px;
 } */
 /* .ellipse5{
@@ -31,3 +49,25 @@ left: 145px;
 top:89.84px;
 left: 145.93px;
 } */
+.monitor-info-box{
+  margin-bottom: 10px;
+}
+.monitor-info-box h2{
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #15192C;
+}
+.monitor-info-box p{
+font-size: 13px;
+font-style: italic;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+color: #15192C;
+}
+
+ /*---------------------- part 2 -----------------------*/
