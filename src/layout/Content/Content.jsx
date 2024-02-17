@@ -3,6 +3,7 @@ import ContentTop from '../../components/ContentTop/ContentTop';
 import Card from "../../components/Cards/Card";
 import WebMonitors from "../../components/WebMonitors/WebMonitors";
 import Welcome from "../../components/Home/Welcome/Welcome";
+import Global from "../../components/Home/Global/Global";
 
 
 const Content = () => {
@@ -11,7 +12,8 @@ const Content = () => {
       <ContentTop />
      {/* <WebMonitors /> */}
    {/* nitu start */}
-<Welcome></Welcome>
+      <Welcome></Welcome>
+      <Global></Global>
 
 {/* shipon */}
     
