@@ -1,7 +1,7 @@
 .global-container {
   display: flex;
   justify-content: space-evenly;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
   gap: 40px;
 }
@@ -60,7 +60,7 @@ border-radius: 16px;;
 .global-right {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 20px;
 }
 .global-right-box {
@@ -76,6 +76,7 @@ border-radius: 16px;;
   align-items: center;
   justify-content: space-between;
   gap: 5px;
+  margin-bottom: 5px;
 }
 .box1-part1 h3 {
   font-size: 13px;
