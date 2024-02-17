@@ -8,11 +8,11 @@ const Global = () => {
     <div>
       <div className="global-container">
         <div className="global-left">
-          <div>
+          <div className="global-flex">
             <h1>Global Uptime</h1>
             <p>last 3 months</p>
           </div>
-          <div>
+          <div className="global-flex">
             <h2>98.74 %</h2>
             <img src={filter} alt="" />
           </div>
