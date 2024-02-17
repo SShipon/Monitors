@@ -1,16 +1,20 @@
 .monitors-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 50px 0px;
-}
-
-.monitor-left{
- box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
   gap: 20px;
 }
 
+/* ------------------------part 1---------------------- */
+
+.monitor-left,.Latencies-right{
+ box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+/* .monitor-left{
+  flex-basis: 40%;
+} */
 .monitor-left h1 {
   font-size: 17px;
   font-weight: 700;
@@ -21,7 +25,7 @@
   margin-left: 40px;
   color: #15192c;
 }
-/* ------------------------part 1---------------------- */
+
 .monitor-loading-component {
   display: flex;
   justify-content: space-around;
@@ -76,3 +80,29 @@
 }
 
 /*---------------------- part 2 -----------------------*/
+.Latencies-right{
+ flex-basis: 60%;
+ padding: 15px;
+}
+.Latencies-box1{
+  display: flex;
+  justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Latencies-box2{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.Latencies-box3 img{
+  display: block;
+  margin: auto;
+}
+.Latencies-calender-div{
+  display: flex;
+  gap: 10px;
+}
+.Latencies-calender ul{
+  display: flex;
+  gap: 20px;
+}

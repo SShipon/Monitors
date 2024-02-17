@@ -3,6 +3,11 @@ import './Monitors.css';
 import ellipse3 from '../../../assets/Home/Ellipse3.png';
 import ellipse4 from '../../../assets/Home/Ellipse4.png';
 import ellipse5 from '../../../assets/Home/Ellipse5.png';
+import calender from '../../../assets/Home/Vector.png';
+import LatenciesCurve from '../../../assets/Home/bar-chart.png';
+import radio1 from '../../../assets/Home/Rectangle.png';
+import radio2 from '../../../assets/Home/Rectangle (1).png';
+
 const Monitors = () => {
     return (
       <div>
@@ -34,7 +39,40 @@ const Monitors = () => {
             </div>
           </div>
           {/* part 2 */}
-          <div className="Latencies-right"></div>
+          <div className="Latencies-right">
+            <div className="Latencies-box1">
+              <div>
+                <h1>Top 5 Latencies</h1>
+              </div>
+              <div className="Latencies-calender-div">
+                <div className="Latencies-calender">
+                  <ul>
+                    <li>1H</li>
+                    <li>1D</li>
+                    <li>3D</li>
+                    <li>1W</li>
+                    <li>1M</li>
+                  </ul>
+                </div>
+                <div>
+                  <img src={calender} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="Latencies-box3">
+              <img src={LatenciesCurve} alt="" />
+            </div>
+            <div className="Latencies-box2">
+              <div>
+                <img src={radio1} alt="" />
+                <p>Google</p>
+              </div>
+              <div>
+                <img src={radio2} alt="" />
+                <p>Microsoft</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
