@@ -12,11 +12,17 @@ import  icons6 from '../../assets/Monitor/info-card-2.png'
 import Monitor from './Monitor'
 export default function Monitors() {
     const monitors =[
-        {
-            id:1,
-            name:'Total Monitors',
-            title:'113'
+      {
+        id: 1,
+        name: 'Total Monitors',
+        title: '113',
+        // Additional styles for the first card (index 0)
+        style: {
+          fontSize: '18px',
+          color: 'blue',
+          // Add any other styles you want to customize
         },
+      },
         {
           id:2,
           img:icons1,
@@ -44,15 +50,12 @@ export default function Monitors() {
   
     ]
   return (
-    <div className='ml-10 shadow border border-red-500 p-10'>
-             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
-             {
-              monitors.map(monitor=><Monitor
-              key={monitor.id}
-              monitor={monitor}
-              ></Monitor>)  
-             }       
-        </div>
+    <div className='ml-10 p-10'>
+      <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6'>
+        {monitors.map((monitor, index) => (
+          <Monitor key={monitor.id} monitor={monitor} style={index === 0 ? monitor.style : null} />
+        ))}
+      </div>
     </div>
   )
 }

@@ -1,10 +1,12 @@
 import React from 'react'
 
-export default function Monitor({monitor}) {
+export default function Monitor({monitor, style}) {
+  console.log(style)
+  
   console.log(monitor)
   const { name, title, img, img1 } = monitor;
   return (
-    <div className=' shadow p-4 '>  
+    <div className=' shadow p-4 ' style={style}>  
            <div className='flex'>
          <div >
           <p className='font-bold text-sx'>{name}</p>
