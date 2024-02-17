@@ -1,0 +1,33 @@
+.monitor-loading-component {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  padding: 17px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.monitor-loading {
+  position: relative;
+}
+.monitor-loading h3 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.ellipse3{
+    position: absolute;
+top: 91.78px;
+left: 151.91px;
+}
+/* .ellipse4{
+    position: absolute;
+top: 85px;
+left: 145px;
+} */
+/* .ellipse5{
+    position: absolute;
+top:89.84px;
+left: 145.93px;
+} */
