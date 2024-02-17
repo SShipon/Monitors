@@ -63,11 +63,11 @@ const Monitors = () => {
               <img src={LatenciesCurve} alt="" />
             </div>
             <div className="Latencies-box2">
-              <div>
+              <div className="googleMicrosoft">
                 <img src={radio1} alt="" />
                 <p>Google</p>
               </div>
-              <div>
+              <div className="googleMicrosoft">
                 <img src={radio2} alt="" />
                 <p>Microsoft</p>
               </div>
