@@ -7,7 +7,7 @@ export default function Monitor({ monitor, style, titleStyle }) {
   const { name, title, img, img1 } = monitor;
   return (
     <div className=" shadow p-4 ">
-      <div className="flex sm:justify-center">
+      <div className="flex justify-center">
         <div>
           <p className="font-bold text-sx">{name}</p>
           <h4 style={titleStyle} className="mr-2 font-extrabold my-4">

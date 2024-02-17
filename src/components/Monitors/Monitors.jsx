@@ -60,7 +60,7 @@ export default function Monitors() {
           <Monitor
             key={monitor.id}
             monitor={monitor}
-            style={index === 0 ? monitor.style : null}
+            style={index === 0 ? monitor.style:null}
             titleStyle={monitor.titleStyle}
           />
         ))}
@@ -68,3 +68,7 @@ export default function Monitors() {
     </div>
   );
 }
+
+
+/* style={index === 0 && monitor.style}
+            titleStyle={monitor.titleStyle} */

@@ -3,12 +3,16 @@ import china from '../../assets/logo/image 101 (1).png';
 import canada from '../../assets/logo/image 94.png';
 import africa from '../../assets/logo/image 102.png'
 import more from '../../assets/logo/+ MORE.png'
+import CreateMonitor from '../CreateMonitor/CreateMonitor';
 export default function WebMonitors() {
   return (
     <div className='ml-10 shadow p-10'>
+      <div className='my-4'>
+      <CreateMonitor/>
+      </div>
      <div class="relative overflow-x-auto  sm:rounded-lg">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 border-b ">
+        <thead class="text-xs text-gray-700 uppercase border-b ">
             <tr>
                 <th scope="col" class="px-6 py-3">
                 <span className='text-black'>  Status Monitor Name</span>
@@ -42,10 +46,10 @@ export default function WebMonitors() {
              
                 </th>
                 <td class="px-6 py-4">
-                <span className='bg-grayColor p-2 rounded text-blackColor'>99%</span>
+                <button className='btn host-btn btn-xs px-6'>99%</button>
                 </td>
                 <td class="px-6 py-4">
-                <span className='bg-grayColor p-2 rounded text-blackColor'>  230 ms</span>
+                <button className='btn host-btn btn-xs px-6'>  230.ms</button>
                 </td>
                 <td class="px-6 py-4">
                 <div className="flex">
@@ -54,12 +58,12 @@ export default function WebMonitors() {
                 </div>
                 </td>
                 <td class="px-6 py-4">
-                 <span className='bg-grayColor p-2 rounded text-blackColor'>HTTP</span>
+                 <button className='btn host-btn btn-xs px-6'>HTTP</button>
                 </td>
                 <td class="px-6 py-4">
                 <div className='flex gap-8'>
-                  <div><span className='bg-grayColor p-2 rounded text-blackColor'>5.m</span></div>
-                  <div><span className='bg-grayColor pl-4 pr-4 pt-1 pb-2 rounded text-blackColor'>...</span></div>
+                  <div><button className='btn host-btn btn-xs px-6'>5.m</button></div>
+                  <div><button className='btn host-btn btn-xs px-6'>...</button></div>
                 </div>
                 </td>
                
@@ -76,10 +80,10 @@ export default function WebMonitors() {
                 </th>
                 <td class="px-6 py-4">
                
-                <span  className='bg-grayColor p-2 rounded text-blackColor'>79%</span>
+                <button className='btn host-btn btn-xs px-6'>79%</button>
                 </td>
                 <td class="px-6 py-4">
-                <span className='bg-grayColor p-2 rounded text-blackColor'>  500 ms</span>
+                <button className='btn host-btn btn-xs px-6'>500.ms</button>
                 </td>
                 <td class="px-6 py-4">
                 <div className="flex item-center">
@@ -93,12 +97,12 @@ export default function WebMonitors() {
                 
                 </td>
                 <td class="px-6 py-4">
-              <span   className='bg-grayColor p-2 rounded text-blackColor'>  HTTP</span>
+                <button className='btn host-btn btn-xs px-6'>HTTP</button>
                 </td>
                 <td class="px-6 py-4">
                 <div className='flex gap-8'>
-                  <div><span   className='bg-grayColor p-2 rounded text-blackColor'>5 m</span></div>
-                  <div><span className='bg-grayColor pl-4 pr-4 pt-1 pb-2 rounded text-blackColor'>...</span></div>
+                  <div> <button className='btn host-btn btn-xs px-6'>5.m</button></div>
+                  <div> <button className='btn host-btn btn-xs px-6'>...</button></div>
                 </div>
                 </td>
                
@@ -115,10 +119,10 @@ export default function WebMonitors() {
                 </th>
                 <td class="px-6 py-4">
                
-                <span  className='bg-grayColor p-2 rounded text-blackColor'>  79%</span>
+                <button className='btn host-btn btn-xs px-6'>79%</button>
                 </td>
                 <td class="px-6 py-4">
-                <span className='bg-grayColor p-2 rounded text-blackColor'>  500 ms</span>
+                <button className='btn host-btn btn-xs px-6'>500.ms</button>
                 </td>
                 <td class="px-6 py-4">
                 <div className="flex relative item-center">
@@ -127,12 +131,12 @@ export default function WebMonitors() {
                 
                 </td>
                 <td class="px-6 py-4">
-              <span   className='bg-grayColor p-2 rounded text-blackColor'>  HTTP</span>
+                <button className='btn host-btn btn-xs px-6'>HTTP</button>
                 </td>
                 <td class="px-6 py-4">
                 <div className='flex gap-8'>
-                  <div><span   className='bg-grayColor p-2 rounded text-blackColor'>5 m</span></div>
-                  <div><span className='bg-grayColor pl-4 pr-4 pt-1 pb-2 rounded text-blackColor'>...</span></div>
+                  <div><button className='btn host-btn btn-xs px-6'>5.m</button></div>
+                  <div><button className='btn host-btn btn-xs px-6'>...</button></div>
                 </div>
                 </td>
                
@@ -312,7 +316,41 @@ export default function WebMonitors() {
         </tbody>
     </table>
 </div>
-
+   <div>
+   <div className='my-4 flex items-center justify-between'>
+     <div className=''>
+     <span className='text-gray-300 text-xs'>Showing data 1 to 8 of  256K entries</span>
+     </div>
+     <div className='flex gap-4'>
+        <div>
+        <button  className='btn host-btn btn-sm'><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+       <div>
+       <button style={{ backgroundColor: '#5932EA' }} className='btn bg-button btn-sm'>
+  1
+</button>
+       </div>
+      <div>
+      <button className='btn host-btn btn-sm'>2</button>
+      </div>
+      <div>
+      <button className='btn host-btn btn-sm'>3</button>
+      </div>
+      <div>
+      <button className='btn host-btn btn-sm'>4</button>
+      </div>
+     <div>
+     <button className='btn host-btn btn-sm'>...</button>
+     </div>
+       <div>
+       <button className='btn host-btn btn-sm'>40</button>
+       </div>
+   <div>
+   <button className='btn host-btn btn-sm'><i class="fa-solid fa-chevron-right"></i></button>
+   </div>
+     </div>
+  </div>
+   </div>
     </div>
   )
 }
