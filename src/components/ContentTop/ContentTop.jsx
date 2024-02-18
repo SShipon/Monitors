@@ -1,10 +1,9 @@
 import { SidebarContext } from "../../context/SidebarContext";
 import { iconsImgs } from "../../utils/images";
-import { personsImgs } from "../../utils/images";
 import "./ContentTop.css";
 import { useContext } from "react";
-import notification from '../../assets/Home/002-notification-1.png';
-import settings from '../../assets/Home/settings 1.png';
+import notification from "../../assets/Home/002-notification-1.png";
+import settings from "../../assets/Home/settings 1.png";
 
 const ContentTop = () => {
   const { toggleSidebar } = useContext(SidebarContext);
@@ -47,6 +46,6 @@ const ContentTop = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContentTop
+export default ContentTop;
