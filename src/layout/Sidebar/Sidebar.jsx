@@ -57,7 +57,7 @@ const Sidebar = () => {
       </nav>
       <hr />
       <div className="my-4">
-        <button className="btn btn-xs w-full sm:btn-sm md:btn-md justify-between sm:hidden md:hidden lg:block">
+        <button className="btn btn-xs w-full sm:btn-sm md:btn-md justify-between hidden md:hidden lg:block">
           <div className="flex items-center">
             <div className="flex bg-btnWhite rounded-md px-4 py-2">
               <img src={light} alt="" />

@@ -18,7 +18,7 @@ const ContentTop = () => {
           <img src={iconsImgs.menu} alt="" />
         </button>
       </div>
-      <div className="content-top-btns">
+      <div className="content-top-btns lg:block hidden">
         <div className=" flex gap-3">
           <div className="nav-settings">
             <img src={settings} alt="" />

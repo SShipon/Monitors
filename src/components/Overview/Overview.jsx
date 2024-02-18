@@ -16,9 +16,9 @@ export default function Overview() {
           style={{ border: "#E6EFF5 solid 1px" }}
         />
       </div>
-        <Banner />
+       <Banner />
         <Meta></Meta>
-        <ChartCart/>
+        <ChartCart/> 
       <div className="my-8">
         {/* <Rechart /> */}
       </div>
