@@ -19,6 +19,9 @@ const Recent = () => {
           <div className="incidents-history-box">
             <div>
               <h1>Incidents History </h1>
+              <h2>
+                <i class="fa-solid fa-arrow-up"></i> <span>24%</span> this month
+              </h2>
             </div>
             <div>
               <button>See More</button>

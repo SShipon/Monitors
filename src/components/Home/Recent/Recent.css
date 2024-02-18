@@ -45,3 +45,24 @@ line-height: 16px;
 letter-spacing: -0.38px;
 text-align: center;
 }
+.incidents-history-box h2{
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: -0.38723403215408325px;
+text-align: left;
+color: #252F40;
+margin-top: 8px;
+}
+.incidents-history-box h2 i{
+color: #82D616;
+}
+.incidents-history-box h2 span{
+font-size: 14px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: -0.38723403215408325px;
+text-align: left;
+color: #67748E;
+margin-right: 7px;
+}
