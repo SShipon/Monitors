@@ -1,5 +1,6 @@
 .recent-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 70px;
@@ -16,8 +17,8 @@
   flex-basis: 60%;
 }
 .incidents-history-right {
-  /* flex-basis: 30%; */
-  width: 409.75px;
+  flex-basis: 30%;
+  
 height: 442px;
 }
 
