@@ -1,5 +1,7 @@
 import React from 'react';
 import './Recent.css';
+import bell from '../../../assets/Home/bell.png';
+import bell1 from '../../../assets/Home/bell1.png';
 
 const Recent = () => {
   return (
@@ -25,6 +27,26 @@ const Recent = () => {
             </div>
             <div>
               <button>See More</button>
+            </div>
+          </div>
+          <div className="incidents-history-box1">
+            <div className="s-up">
+              <div>
+                <h3>Shopify UP</h3>
+                <h4>09 JUN 7:20 PM</h4>
+              </div>
+              <div>
+                <img src={bell} alt="" />
+              </div>
+            </div>
+            <div className="s-down">
+              <div>
+                <h3>Shopify Down</h3>
+                <h4>08 JUN 12:20 PM</h4>
+              </div>
+              <div>
+                <img src={bell1} alt="" />
+              </div>
             </div>
           </div>
         </div>
