@@ -58,6 +58,7 @@ border-radius: 16px;;
 /* --------------second part css----------------- */
 
 .global-right {
+  flex-basis: 60%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

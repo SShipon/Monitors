@@ -8,7 +8,12 @@
 }
 
 /* ------------------------part 1---------------------- */
-
+.monitor-left{
+flex-basis: 30%;
+}
+.Latencies-right{
+flex-basis: 60%;
+}
 .monitor-left,.Latencies-right{
  box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;

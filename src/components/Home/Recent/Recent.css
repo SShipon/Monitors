@@ -1,0 +1,12 @@
+.recent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.recent-monitors-left{
+    flex-basis: 60%;
+}
+.incidents-history-right{
+    flex-basis: 30%;
+}
