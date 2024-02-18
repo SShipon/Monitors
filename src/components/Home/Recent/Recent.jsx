@@ -9,13 +9,22 @@ const Recent = () => {
           <div className="recent-monitors-box">
             <div>
               <h1>Recent Monitors</h1>
-                      </div>
-                      <div>
-                          <button>See More</button>
-                      </div>
+            </div>
+            <div>
+              <button>See More</button>
+            </div>
           </div>
         </div>
-        <div className="incidents-history-right"></div>
+        <div className="incidents-history-right">
+          <div className="incidents-history-box">
+            <div>
+              <h1>Incidents History </h1>
+            </div>
+            <div>
+              <button>See More</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
