@@ -10,7 +10,7 @@ import Recent from "../../components/Home/Recent/Recent";
 
 const Content = () => {
   return (
-    <div className='main-content'>
+    <div className='main-content overflow-x-hidden'>
       <ContentTop />
      {/* nitu start */}
       {/* <Welcome></Welcome>
