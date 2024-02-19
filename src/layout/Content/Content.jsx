@@ -12,11 +12,10 @@ const Content = () => {
   return (
     <div className='main-content'>
       <ContentTop />
-     {/* <WebMonitors /> */}
-   {/* nitu start */}
-      <Welcome></Welcome>
+     {/* nitu start */}
+      {/* <Welcome></Welcome>
       <Global></Global>
-      <Monitors></Monitors>
+      <Monitors></Monitors> */}
       <Recent></Recent>
 
 {/* shipon */}

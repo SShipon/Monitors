@@ -1,41 +1,40 @@
-.recent-container {
+/* .recent-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 70px;
-}
-.recent-monitors-left,.incidents-history-right {
+} */
+/* .recent-monitors-left,.incidents-history-right {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
   padding: 17px;
   border-radius: 16px;
-}
-.recent-monitors-left {
+} */
+/* .recent-monitors-left {
   flex-basis: 60%;
 }
 .incidents-history-right {
   flex-basis: 30%;
-  
 height: 442px;
-}
+} */
 
 /* -----------1st part css--------------- */
-.recent-monitors-box,.incidents-history-box{
+/* .recent-monitors-box,.incidents-history-box{
 display: flex;
 justify-content: space-between;
-}
-.recent-monitors-box h1 ,.incidents-history-box h1{
+} */
+/* .recent-monitors-box h1 ,.incidents-history-box h1{
 font-size: 16px;
 font-weight: 700;
 line-height: 22px;
 letter-spacing: -0.44255319237709045px;
 text-align: left;
 color: #252F40;
-}
-.recent-monitors-box button ,.incidents-history-box button{
+} */
+/* .recent-monitors-box button ,.incidents-history-box button{
 width: 107px;
 height: 29px;
 border: 1px solid #CB0C9F;
@@ -46,10 +45,10 @@ font-weight: 700;
 line-height: 16px;
 letter-spacing: -0.38px;
 text-align: center;
-}
+} */
 
 /* -----------2nd part css--------------- */
-.incidents-history-box h2{
+/* .incidents-history-box h2{
 font-size: 14px;
 font-weight: 400;
 line-height: 19px;
@@ -57,11 +56,11 @@ letter-spacing: -0.38723403215408325px;
 text-align: left;
 color: #252F40;
 margin-top: 8px;
-}
-.incidents-history-box h2 i{
+} */
+/* .incidents-history-box h2 i{
 color: #82D616;
-}
-.incidents-history-box h2 span{
+} */
+/* .incidents-history-box h2 span{
 font-size: 14px;
 font-weight: 600;
 line-height: 19px;
@@ -69,16 +68,16 @@ letter-spacing: -0.38723403215408325px;
 text-align: left;
 color: #67748E;
 margin-right: 7px;
-}
+} */
 
-.incidents-history-box1{
+/* .incidents-history-box1{
   display: flex;
   flex-direction: column;
   gap: 30px;
   position: relative;
   top: -180px;
-}
-.s-up ,.s-down{
+} */
+/* .s-up ,.s-down{
   display: flex;
   justify-content: space-around;
-}
+} */
