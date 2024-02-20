@@ -1,11 +1,10 @@
 import React from "react";
+import Card from "./Cards/Card";
+import "./Monitors.css";
+import Analytics from "./Analytics/Analytics";
 import ContentTop from "../ContentTop/ContentTop";
-import Banner from "../Home/Banner/Banner";
-import Meta from "../Home/Meta/Meta";
-import ChartCart from "../Home/Rechart/ChartCart";
-import Recent from "../Home/Recent/Recent";
 
-export default function Overview() {
+export default function Monitors() {
   return (
     <div className="main-content overflow-x-hidden">
       <ContentTop />
@@ -15,13 +14,8 @@ export default function Overview() {
           style={{ border: "#E6EFF5 solid 1px" }}
         />
       </div>
-       <Banner />
-        <Meta></Meta>
-         <ChartCart/>
-        <Recent />
-      <div className="my-8">
-       
-      </div>
+      <Card />
+      <Analytics />
     </div>
   );
 }

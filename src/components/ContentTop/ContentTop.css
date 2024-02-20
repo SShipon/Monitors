@@ -3,9 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
   margin-bottom: 32px;
-  border-bottom: 1px solid rgb(214, 229, 230);
 }
 .sidebar-toggler {
   display: flex;
@@ -26,6 +24,7 @@
 .content-top-btn img {
   width: 24px;
 }
+
 
 .content-top-left {
   display: flex;
