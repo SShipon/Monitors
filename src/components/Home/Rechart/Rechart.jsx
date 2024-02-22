@@ -56,8 +56,10 @@ export default function Rechart() {
     },
   ];
 
+
+
   return (
-    <div style={{ width: '100%', maxWidth: '100%' }}>
+    <div>
       <LineChart className='widthchart' width={700} height={300} data={data}>
         <XAxis dataKey="name" />
         <YAxis />
@@ -65,6 +67,7 @@ export default function Rechart() {
         <Line type="monotone" dataKey="uv" stroke="#8884d8" />
         <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
       </LineChart>
+      
     </div>
   );
 }
