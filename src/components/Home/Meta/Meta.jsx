@@ -10,6 +10,7 @@ import google_cloud from "../../../assets/Banner/google-cloud.png";
 import right_arrow from "../../../assets/Banner/right-arrow.png";
 import { Line } from "recharts/lib/cartesian/Line";
 import moment from 'moment';
+import LineComponent from "./LineComponent";
 export default function Meta() {
   const data = {
     labels: [
@@ -69,6 +70,7 @@ export default function Meta() {
                 </div>
               </div>
               {/* <img src={path} alt="path" className="py-5" /> */}
+              <LineComponent></LineComponent>
               {/* curve */}
               <div>
                 <Line data={data} options={options} />
