@@ -4,7 +4,7 @@ import Chart from 'chart.js/auto';
 const CircleComponent = () => {
   // Sample data for the doughnut chart
   const chartRef = useRef(null);
-
+  
   useEffect(() => {
     if (chartRef && chartRef.current) {
       const ctx = chartRef.current.getContext('2d');
