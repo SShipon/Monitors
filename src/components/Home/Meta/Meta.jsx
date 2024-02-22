@@ -11,6 +11,7 @@ import right_arrow from "../../../assets/Banner/right-arrow.png";
 import { Line } from "recharts/lib/cartesian/Line";
 import moment from 'moment';
 import LineComponent from "./LineComponent";
+import ProgressiveLineChart from "./ProgressiveLineChart";
 export default function Meta() {
   const data = {
     labels: [
@@ -69,7 +70,6 @@ export default function Meta() {
                   <img className="ml-auto w-1/5 " src={filter} alt="filter" />
                 </div>
               </div>
-              {/* <img src={path} alt="path" className="py-5" /> */}
               <LineComponent></LineComponent>
               {/* curve */}
               <div>
@@ -88,7 +88,7 @@ export default function Meta() {
                     <img src={meta_logo} alt="meta" />
                     <h5 className="font-bold text-xl">Meta</h5>
                   </div>
-                  <img className="w-2/5" src={meta_cloud} alt="meta" />
+                  <ProgressiveLineChart></ProgressiveLineChart>
                 </div>
                 <div className="flex justify-around gap-x-3 pt-5">
                   <div>
@@ -109,7 +109,8 @@ export default function Meta() {
                     <img src={meta_logo} alt="meta" />
                     <h5 className="font-bold text-xl">Meta</h5>
                   </div>
-                  <img className="w-2/5" src={meta_cloud} alt="meta" />
+                  {/* <img className="w-2/5" src={meta_cloud} alt="meta" /> */}
+                  <ProgressiveLineChart></ProgressiveLineChart>
                 </div>
                 <div className="flex justify-around gap-x-3 pt-5">
                   <div>
@@ -130,7 +131,8 @@ export default function Meta() {
                     <img src={microsoft_logo} alt="meta" />
                     <h5 className="font-bold text-xl">Meta</h5>
                   </div>
-                  <img className="w-2/5" src={microsoft_cloud} alt="meta" />
+                  <ProgressiveLineChart></ProgressiveLineChart>
+                  {/* <img className="w-2/5" src={microsoft_cloud} alt="meta" /> */}
                 </div>
                 <div className="flex justify-around gap-x-3 pt-5">
                   <div>
@@ -150,8 +152,7 @@ export default function Meta() {
                   <div className="flex items-center gap-x-1.5">
                     <img className="" src={google_logo} alt="meta" />
                     <h5 className="font-bold text-xl">Meta</h5>
-                    <img className="w-2/5 " src={google_cloud} alt="meta" />
-                    <img className="w-2/5 " src={right_arrow} alt="meta" />
+                    <ProgressiveLineChart></ProgressiveLineChart>
                   </div>
                 </div>
                 <div className="flex justify-around gap-x-3 pt-5">
