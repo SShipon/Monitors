@@ -10,6 +10,17 @@ const ProgressiveLineChart = () => {
      const minData = Math.min(...data);
      const maxData = Math.max(...data);
      const ctx = chartRef.current.getContext('2d');
+
+     // Define the linear gradient background
+     const gradient = ctx.createLinearGradient(
+       0,
+       0,
+       0,
+       chartRef.current.height
+     );
+     gradient.addColorStop(0, '#D34645');
+     gradient.addColorStop(1, 'rgba(211, 70, 69, 0)');
+
      new Chart(ctx, {
        type: 'line',
        data: {
@@ -26,11 +37,10 @@ const ProgressiveLineChart = () => {
            {
              label: 'Dataset',
              data: data,
-             borderColor: 'rgba(75, 192, 192, 1)',
              borderWidth: 1,
              fill: true,
-             backgroundColor: 'rgba(255, 99, 132, 0.2)',
-             borderColor: 'rgb(255, 99, 132)',
+             backgroundColor: gradient, // Use linear gradient background
+             borderColor: '#D34645', // Border color same as gradient start color
              tension: 0.4, // Adjust the tension for different curve shapes
              pointRadius: 0, // Hide data points
            },
