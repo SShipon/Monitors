@@ -40,7 +40,7 @@ const CircleComponent = () => {
     <div>
       <canvas
         ref={chartRef}
-        width="300"
+        width="200"
         height="250"
       />
     </div>
