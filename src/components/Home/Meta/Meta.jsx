@@ -1,17 +1,14 @@
 import React from "react";
 import filter from "../../../assets/Banner/filter.png";
-import path from "../../../assets/Banner/global-uptime-path.svg";
 import meta_logo from "../../../assets/Banner/meta-logo.png";
-import meta_cloud from "../../../assets/Banner/meta-cloud.png";
 import microsoft_logo from "../../../assets/Banner/microsoft-logo.png";
-import microsoft_cloud from "../../../assets/Banner/microsoft-cloud.png";
 import google_logo from "../../../assets/Banner/google-logo.png";
-import google_cloud from "../../../assets/Banner/google-cloud.png";
-import right_arrow from "../../../assets/Banner/right-arrow.png";
 import { Line } from "recharts/lib/cartesian/Line";
 import moment from 'moment';
 import LineComponent from "./LineComponent";
 import ProgressiveLineChart from "./ProgressiveLineChart";
+import PosititveChart from "./PositiveChart";
+
 export default function Meta() {
   const data = {
     labels: [
@@ -131,7 +128,7 @@ export default function Meta() {
                     <img src={microsoft_logo} alt="meta" />
                     <h5 className="font-bold text-xl">Meta</h5>
                   </div>
-                  <ProgressiveLineChart></ProgressiveLineChart>
+                  <PosititveChart></PosititveChart>
                   {/* <img className="w-2/5" src={microsoft_cloud} alt="meta" /> */}
                 </div>
                 <div className="flex justify-around gap-x-3 pt-5">
@@ -152,8 +149,8 @@ export default function Meta() {
                   <div className="flex items-center gap-x-1.5">
                     <img className="" src={google_logo} alt="meta" />
                     <h5 className="font-bold text-xl">Meta</h5>
-                    <ProgressiveLineChart></ProgressiveLineChart>
                   </div>
+                  <ProgressiveLineChart></ProgressiveLineChart>
                 </div>
                 <div className="flex justify-around gap-x-3 pt-5">
                   <div>
