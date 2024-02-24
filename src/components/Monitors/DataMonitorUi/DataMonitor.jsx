@@ -1,4 +1,5 @@
 import React from "react";
+import DMCurve from "./DMCurve";
 
 export default function DataMonitor({ monitor, style, titleStyle }) {
   console.log(style);
@@ -16,7 +17,8 @@ export default function DataMonitor({ monitor, style, titleStyle }) {
           <img className="" src={img} alt="" />
         </div>
         <div>
-          {img && <img className="w-[48px] h-[48px] my-4 " src={img1} alt="" />}
+          {/* {img && <img className="w-[48px] h-[48px] my-4 " src={img1} alt="" />} */}
+       <DMCurve></DMCurve>
         </div>
       </div>
     </div>

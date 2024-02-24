@@ -1,0 +1,5 @@
+.custom-curve {
+  border: 2px solid transparent; /* Set border width and make it transparent */
+  border-image-source: linear-gradient(180deg, #E45B74 0%, #A7003C 100%);
+  border-image-slice: 1; /* Ensure the entire border is used for the gradient */
+}
