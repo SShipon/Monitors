@@ -4,8 +4,8 @@ import  icons6 from '../../../assets/Monitor/info-card-2.png'
 import DataMonitorUi from "../DataMonitorUi/DataMonitorUi";
 export default function Card() {
   return (
-    <div className="lg:flex">
-     <div class="lg:flex lg:flex-row">
+    <div>
+     <div class="lg:flex justify-between lg:flex-row">
   
     <div class="lg:basis-1/9">
        <DataMonitorUi />
