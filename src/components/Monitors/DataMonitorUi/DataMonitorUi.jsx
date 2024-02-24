@@ -9,6 +9,9 @@ import icons4 from "../../../assets/Monitor/SVG (1).png";
 import icons2 from "../../../assets/Monitor/Img.png";
 import icons5 from "../../../assets/Monitor/SVG (2).png";
 import DataMonitor from "./DataMonitor";
+import DMCurveRed from "./DMCurveRed";
+import DMCurve from "./DMCurve";
+import DMCurveYellow from "./DMCurveYellow";
 export default function DataMonitorUi() {
   const monitors = [
     {
@@ -36,6 +39,7 @@ export default function DataMonitorUi() {
       img1: icons3,
       name: "Healthy",
       title: "90",
+      chart:<DMCurve />
     },
     {
       id: 3,
@@ -43,6 +47,7 @@ export default function DataMonitorUi() {
       img1: icons4,
       name: "Down",
       title: "8",
+      chart:<DMCurveRed />
     },
     {
       id: 4,
@@ -50,6 +55,7 @@ export default function DataMonitorUi() {
       img1: icons5,
       name: "Pause",
       title: "15",
+      chart:<DMCurveYellow />
     },
   ];
   return (
