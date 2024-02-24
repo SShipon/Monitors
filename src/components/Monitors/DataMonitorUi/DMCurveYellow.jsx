@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
-export default function DMCurve() {
+export default function DMCurveYellow() {
   const chartRef = useRef(null);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function DMCurve() {
             {
               label: 'Dataset',
               data: [20, 5, 30, 88, 5, 80, 11, 3],
-              borderColor: '#00A76F', // Set green color
+              borderColor: '#EBC258', // Set yelelow color
               borderWidth: 2, // Set border width
               fill: false,
               tension: 0.4,
@@ -56,5 +56,4 @@ export default function DMCurve() {
       <canvas ref={chartRef} width="46" height="38" />
     </div>
   );
-};
-
+}
